@@ -1,0 +1,38 @@
+.home-container {
+  max-width: 614px;
+  margin: 0 auto;
+  padding: 20px 15px;
+}
+
+.posts-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loading,
+.error,
+.no-posts {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.loading {
+  color: #8e8e8e;
+}
+
+.error {
+  color: #ed4956;
+}
+
+.no-posts {
+  color: #262626;
+}
+
+.no-posts h2 {
+  margin-bottom: 10px;
+}
+
+.no-posts p {
+  color: #8e8e8e;
+} 
